@@ -1,7 +1,7 @@
 let navBar = `
 <!-- Navigation Bar Component  -->
 <div class="navbar">
-    <a href="../html_pages/index.html">Home</a>
+    <a href="../index.html">Home</a>
     <div class="dropdown">
       <button class="dropbtn">Assignments 
         <i class="fa fa-caret-down"></i>
