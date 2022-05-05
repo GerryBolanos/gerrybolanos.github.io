@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base_styles.css">
+    <script src="../js/fancifymytext.js"></script>
+    <title>Fun With JavaScript</title>
+</head>
+<body>
+    <h1>Fancify my Text</h1>
+
+    <fieldset class="user_input_container">
+        <legend>Text</legend>
+        <textarea id="text" class="user_input" rows="4" cols="30">Hello Everone. My name is Gerardo Bolanos.</textarea>
+    </fieldset>
+    
+    <fieldset class="user_input_container">
+        <legend>Fancify</legend>
+        <button onclick="increaseFontSize()">Bigger!</button>
+        <br>
+        <input type="radio" id="fancyShmancy" value="FancyShmancy" name="fancifyText" onchange="modifyTextAreaStyle(this)" />
+        <label for="fancyShmancy">FancyShmancy</label>
+        <br>
+        <input type="radio" id="boringBetty" value="BoringBetty" name="fancifyText" onchange="modifyTextAreaStyle(this)" />
+        <label for="boringBetty">BoringBetty</label>
+        <br>
+        <button onclick="modifyTextAreaText()">Moo</button>
+    </fieldset>
+
+    <script src="../js/navbar.js" />
+    
+</body>
+</html>
